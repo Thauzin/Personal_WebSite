@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.cabeca{
+    position: fixed;
+    background-color: CE3459; 
+    margin-left: 1300px; 
+    margin-top: 85px; 
+    text-align: center;
+    z-index: 9999; /* Garante que a cabeça esteja na frente de outros elementos */ 
+}
+
+.ret {
+    background: #CE3459; 
+    width: 50px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+
+.icon {
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.icone {
+    margin-top: 35px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon:hover {
+    cursor:pointer;
+}
+
+.icone:hover {
+    cursor: pointer;
+}
+
+.minha {
+    width: 641px;
+    height: 641px;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    position: fixed;
+
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+.pri{
+    font-size: 70px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+
+.prof {
+    background: #CE3459; 
+    width: 450px;
+    height: 30px;
+    margin-left: 30px;
+    
+}
+
+.resumo {
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
