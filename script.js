@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var page1 = document.getElementById("page1");
-    var page2 = document.getElementById("page2");
+    var page1 = document.querySelectorAll(".index"); 
+    var page2 = document.getElementById("pag2"); 
     
     var currentPage = 1;
     
@@ -20,4 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+  
+
   
