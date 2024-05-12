@@ -111,3 +111,92 @@ body {
 .para {
     font-size: 45px;
 }
+
+.edu {
+    font-size: 30px;
+    color: #CE3459;
+    margin-left: 300px;
+    margin-top: 170px;
+    z-index: 9999; 
+    position: absolute; /* Para a referencia n ser do html e sim dentro de local especifico */ 
+}
+
+.grady {
+    width: 150px;
+    height: 30px;
+    background-color: #CE3459;
+    color: #CE3459;
+    margin-left: 300px; 
+    margin-top: 220px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.data {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.name {
+    font-size: 20px;
+    margin-left: 300px; 
+    margin-top: 260px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.textin {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 300px; 
+    margin-top: 290px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.gradi {
+    width: 150px;
+    height: 30px;
+    background-color: #CE3459;
+    color: #CE3459;
+    margin-left: 800px; 
+    margin-top: 220px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.date {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.nome {
+    font-size: 20px;
+    margin-left: 800px; 
+    margin-top: 260px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.texti {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 800px; 
+    margin-top: 290px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+hr {
+    color:#CE3459;
+    border: none;
+    border-top: 5px dotted;
+    width: 800px;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: 300px; 
+}
