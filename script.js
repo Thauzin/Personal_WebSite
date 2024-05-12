@@ -27,3 +27,13 @@
   document.getElementById("tabul").addEventListener("mouseout", function() {
       document.getElementById("textot").style.display = "none"; 
   });
+
+      //Brasil
+      document.getElementById("br").addEventListener("mouseover", function() {
+        document.getElementById("textob").style.display = "block";
+    });
+  
+    // Brasil
+    document.getElementById("br").addEventListener("mouseout", function() {
+        document.getElementById("textob").style.display = "none"; 
+    });

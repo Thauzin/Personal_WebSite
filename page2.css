@@ -169,3 +169,25 @@
 .sobre {
     display:inline-flex; 
 }
+
+
+.brasil {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px; 
+    margin-top: 50px;
+    z-index: 9999; 
+    border: 2px solid #CE3459;
+    border-radius: 10%;
+    z-index: 9999; 
+    float: left; /* Adiciona o float para alinhar à esquerda */
+}
+
+#textob {
+    margin-top: 0; 
+    display: none; 
+    text-align: center;
+    margin-left: 860px; 
+    width: 200px;
+    background-color: #d16780;  
+}
