@@ -111,14 +111,18 @@
     width: 200px;
     height: 200px;
     margin-left: 400px; 
-    margin-top: 250px;
+    margin-top: 200px;
     z-index: 9999; 
     border: 2px solid #CE3459;
+    border-radius: 10%;
 }
 
 #textov {
+    margin-top: 0; 
     display: none; 
+    text-align: center;
     margin-left: 400px; 
-    width: 220px;
+    width: 200px;
+    background-color: #d16780; 
 }
 
