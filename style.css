@@ -12,7 +12,7 @@
     position: fixed;
     background-color: CE3459; 
     margin-left: 1300px; 
-    margin-top: 45px; 
+    margin-top: 10px; 
     text-align: center;
     z-index: 9999; /* Garante que a cabeça esteja na frente de outros elementos */ 
 }
