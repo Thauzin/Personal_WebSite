@@ -12,7 +12,7 @@
     position: fixed;
     background-color: CE3459; 
     margin-left: 1300px; 
-    margin-top: 45px; 
+    margin-top:150px; 
     text-align: center;
     z-index: 9999; /* Garante que a cabeça esteja na frente de outros elementos */ 
 }
@@ -47,38 +47,45 @@
     transform: scale(1.5); 
 }
 
-.minha {
-    width: 641px;
-    height: 641px;
-    background-size: cover;
-    top: 0;
-    right: 0;
-    position: fixed;
-
-}
-
-h1 {
-    font-size: 70px;
-    margin-left: 40px;
-}
-
-.pri{
-    font-size: 70px;
-    margin-left: 40px;
-    margin-top: 150px;
+.canto {
+    width: 180px;
+    height: 681px;
+    background-color: #CE3459;
 }
 
 
-.prof {
-    background: #CE3459; 
-    width: 450px;
-    height: 30px;
-    margin-left: 40px;
-    
+.pequena {
+    height: 180px;
+    width: 180px; 
 }
 
-.resumo {
-    width: 500px;
-    margin-left: 40px;
-    margin-top: 40px;
+.lista1 {
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.lista {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.lista:hover {
+    cursor: pointer;
+}
+
+.lista1:hover {
+    cursor: pointer;
+}
+
+.lista2:hover {
+    cursor: pointer;
+}
+
+.lista2 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
 }
