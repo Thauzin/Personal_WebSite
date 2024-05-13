@@ -37,3 +37,41 @@
     document.getElementById("br").addEventListener("mouseout", function() {
         document.getElementById("textob").style.display = "none"; 
     });
+
+    const carouselContainer = document.querySelector('.carousel-container');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+
+let imageIndex = 0;
+
+function showImage(index) {
+  const images = carouselContainer.querySelectorAll('img');
+  images.forEach((image, i) => {
+    if (i === index) {
+      image.style.display = 'block';
+    } else {
+      image.style.display = 'none';
+    }
+  });
+}
+
+function nextImage() {
+  imageIndex++;
+  if (imageIndex >= carouselContainer.children.length) {
+    imageIndex = 0;
+  }
+  showImage(imageIndex);
+}
+
+function prevImage() {
+  imageIndex--;
+  if (imageIndex < 0) {
+    imageIndex = carouselContainer.children.length - 1;
+  }
+  showImage(imageIndex);
+}
+
+nextBtn.addEventListener('click', nextImage);
+prevBtn.addEventListener('click', prevImage);
+
+showImage(imageIndex); // Mostrar a primeira imagem inicialmente
