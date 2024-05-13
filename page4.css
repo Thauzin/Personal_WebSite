@@ -112,3 +112,16 @@ body {
     font-size: 45px;
 }
 
+.banner-slider {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Removendo estilos para .banner-slider img e ajustando para o Slick */
+.slick-slide img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
