@@ -200,3 +200,38 @@ hr {
     position: absolute;
     margin-left: 300px; 
 }
+
+.grad {
+    width: 200px;
+    height: 30px;
+    background-color: #CE3459;
+    color: #CE3459;
+    margin-left: 300px; 
+    margin-top: 450px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.dat {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.nam {
+    font-size: 20px;
+    margin-left: 300px; 
+    margin-top: 490px;
+    z-index: 9999; 
+    position: absolute;
+}
+
+.text {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 300px; 
+    margin-top: 520px;
+    z-index: 9999; 
+    position: absolute;
+}
