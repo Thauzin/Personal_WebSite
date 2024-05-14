@@ -111,17 +111,36 @@ body {
 .para {
     font-size: 45px;
 }
-
-.banner-slider {
-    max-width: 80%;
-    margin: 0 auto;
+.cards, .cards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
 }
 
-/* Removendo estilos para .banner-slider img e ajustando para o Slick */
-.slick-slide img {
-    border-radius: 20px;
-    max-width: 100%;
-    height: auto; 
-    display: block;
-    margin: 0 auto;
+.cards {
+    margin-left: 200px;
+    margin-top: 180px;
 }
+
+.cards2 {
+    margin-top: 250px;
+}
+
+.card img {
+    height: 200px;
+    width: 350px;
+    transition: transform 400ms, filter 400ms;
+}
+
+.card:hover img {
+    transform: scale(1.3);
+}
+
+/* Aplica desfoque e redução de escala aos cards não hovered quando o contêiner é hovered */
+.cards:hover .card:not(:hover) img,
+.cards2:hover .card:not(:hover) img {
+    filter: blur(10px);
+    transform: scale(0.9);
+}
+
