@@ -111,3 +111,16 @@ body {
 .para {
     font-size: 45px;
 }
+
+.rede2 {
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 70px;
+    height: 70px; 
+}
+
+.rede2:hover {
+    border: 3px solid blue;
+    background-color: blue;
+    border-radius: 10%;
+}
