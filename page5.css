@@ -111,16 +111,63 @@ body {
 .para {
     font-size: 45px;
 }
+.rede {
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 70px;
+    height: 70px; 
+}
+
+.rede:hover {
+    border: 3px solid #CE3459; 
+    background-color: #CE3459; 
+    border-radius: 10%;
+}
 
 .rede2 {
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 200px; 
+    margin-left: 150px;
+    margin-bottom: 0px;
     width: 70px;
     height: 70px; 
 }
 
 .rede2:hover {
-    border: 3px solid blue;
-    background-color: blue;
+    border: 3px solid #CE3459; 
+    background-color: #CE3459; 
     border-radius: 10%;
+}
+
+.redex {
+    margin-top: 100px; 
+    margin-left: 500px;
+    width: 70px;
+    height: 70px; 
+}
+
+.redex:hover {
+    border: 3px solid #CE3459; 
+    background-color: #CE3459; 
+    border-radius: 10%;
+}
+
+.rede3 {
+    margin-top: 100px; 
+    margin-left: 150px;
+    margin-bottom: 0px;
+    width: 70px;
+    height: 70px; 
+}
+
+.rede3:hover {
+    border: 3px solid #CE3459; 
+    background-color: #CE3459; 
+    border-radius: 10%;
+}
+
+.email {
+    all: unset;
+    color: #CE3459;
+    cursor: pointer;
+    margin-left: 570px; 
 }
