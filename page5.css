@@ -169,5 +169,7 @@ body {
     all: unset;
     color: #CE3459;
     cursor: pointer;
-    margin-left: 570px; 
+    margin-left: 600px; 
+    margin-top: 130px;
+    position: absolute;
 }
