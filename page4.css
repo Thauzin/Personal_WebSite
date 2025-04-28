@@ -107,40 +107,77 @@ body {
 
 }
 
-
 .para {
     font-size: 45px;
 }
-.cards, .cards2 {
+
+.card1{
+    margin-left: 350px;
+    margin-top: 200px;
+    width: 200px; 
+    height: 200px;
     display: flex;
     flex-direction: row;
     gap: 15px;
     position: absolute;
+    z-index: 9999;
+    border: 5px solid #F1EC0D;
 }
 
-.cards {
-    margin-left: 200px;
-    margin-top: 180px;
+.card1:hover{
+    border: 5px solid #CE3459;
+    cursor: pointer;
 }
 
-.cards2 {
-    margin-top: 250px;
-}
-
-.card img {
+.card2{
+    margin-left: 650px;
+    margin-top: 200px;
+    width: 200px; 
     height: 200px;
-    width: 350px;
-    transition: transform 400ms, filter 400ms;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    z-index: 9999;
+    border: 5px solid #37AAFE;
 }
 
-.card:hover img {
-    transform: scale(1.4);
+.card2:hover{
+    border: 5px solid #CE3459;
+    cursor: pointer;
 }
 
-/* Aplica desfoque e redução de escala aos cards não hovered quando o contêiner é hovered */
-.cards:hover .card:not(:hover) img,
-.cards2:hover .card:not(:hover) img {
-    filter: blur(3px); 
-    transform: scale(0.9);
+.card3{
+    margin-left: 950px;
+    margin-top: 200px;
+    width: 200px; 
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    z-index: 9999;
+    border: 5px solid #F5EEE4;
 }
+
+.card3:hover{
+    border: 5px solid #CE3459;
+    cursor: pointer;
+}
+
+.textfinal{
+    color: #CE3459;
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    z-index: 9999;
+}
+
+
+
+
 
